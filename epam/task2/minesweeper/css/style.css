@@ -1,0 +1,79 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, p,a, form, label, table, caption, tbody, tfoot, thead, tr, th, td,
+ footer, header,
+menu, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+footer, header{
+    display: inline-block;
+}
+body {
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+    height: 100%;
+}
+footer, header, main, nav{
+    display: block;
+}
+body {
+    font: 12px/18px Arial, sans-serif;
+    height: 100%;
+}
+.wrapper {
+    min-width: 100px;
+    max-width: 5000px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.header {
+    height: 100px;
+    background: lavender;
+}
+
+.content {
+    padding: 0 0 100px;
+}
+
+.footer {
+    margin: -100px auto 0;
+    min-width: 100px;
+    max-width: 1000px;
+    height: 100px;
+    background: lavender;
+    position: relative;
+}
+#minefield {
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-left: 380px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#minefield td {
+    width: 50px;
+    height: 50px;
+    line-height: 20px;
+    text-align: center;
+    border: #9cb0ca 1px solid;
+    text-align-all: center;
+}
+

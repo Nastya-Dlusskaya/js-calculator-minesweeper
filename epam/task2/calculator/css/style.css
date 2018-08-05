@@ -1,0 +1,25 @@
+#calculator {
+    border: 0.1em black;
+    margin-left: 20em;
+    margin-top: 9em;
+}
+
+.panel {
+    text-align: right;
+    margin: 10px;
+    width: 274px;
+    height: 80px;
+    font-size: 26px;
+    background-color: white;
+}
+
+.panel:hover {
+    cursor: col-resize;
+}
+
+.cbtn {
+    margin: 10px;
+    width: 59px;
+    height: 45px;
+    font-size: 22px;
+}
